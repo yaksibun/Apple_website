@@ -81,7 +81,7 @@ class IpadWindow(QWidget):
 
         self.visit_store_btn = QPushButton()
         self.visit_store_btn.setFixedSize(230, 70)
-        self.visit_store_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\visit.png")))
+        self.visit_store_btn.setIcon(QIcon(QPixmap("images\\visit.png")))
         self.visit_store_btn.setIconSize(self.visit_store_btn.size())
         self.visit_store_btn.clicked.connect(self.Visit_btn)
 
@@ -143,19 +143,19 @@ class IpadWindow(QWidget):
         self.explore_all_ipad_accessories_btn.clicked.connect(self.Explore_accessories)
 
         # Buttons' background images
-        self.ipad_pro_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_pro.png")))
+        self.ipad_pro_btn.setIcon(QIcon(QPixmap("images\\ipad_pro.png")))
         self.ipad_pro_btn.setIconSize(self.ipad_pro_btn.size())
 
-        self.ipad_air_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_air.png")))
+        self.ipad_air_btn.setIcon(QIcon(QPixmap("images\\ipad_air.png")))
         self.ipad_air_btn.setIconSize(self.ipad_air_btn.size())
 
-        self.ipad_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad.png")))
+        self.ipad_btn.setIcon(QIcon(QPixmap("images\\ipad.png")))
         self.ipad_btn.setIconSize(self.ipad_btn.size())
 
-        self.ipad_mini_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_mini.png")))
+        self.ipad_mini_btn.setIcon(QIcon(QPixmap("images\\ipad_mini.png")))
         self.ipad_mini_btn.setIconSize(self.ipad_mini_btn.size())
 
-        self.explore_all_ipad_accessories_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\explore_all_ipad_accessories.png")))
+        self.explore_all_ipad_accessories_btn.setIcon(QIcon(QPixmap("images\\explore_all_ipad_accessories.png")))
         self.explore_all_ipad_accessories_btn.setIconSize(self.explore_all_ipad_accessories_btn.size())
 
         # Adding buttons to the horizontal layout
@@ -191,16 +191,16 @@ class IpadWindow(QWidget):
 
 
         # Setting icons for shopping buttons
-        self.shopping_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\which_ipad.png")))
+        self.shopping_btn1.setIcon(QIcon(QPixmap("images\\which_ipad.png")))
         self.shopping_btn1.setIconSize(self.shopping_btn1.size())
 
-        self.shopping_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\shop_with.png")))
+        self.shopping_btn2.setIcon(QIcon(QPixmap("images\\shop_with.png")))
         self.shopping_btn2.setIconSize(self.shopping_btn2.size())
 
-        self.shopping_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\man.png")))
+        self.shopping_btn3.setIcon(QIcon(QPixmap("images\\man.png")))
         self.shopping_btn3.setIconSize(self.shopping_btn3.size())
 
-        self.shopping_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\woman.png")))
+        self.shopping_btn4.setIcon(QIcon(QPixmap("images\\woman.png")))
         self.shopping_btn4.setIconSize(self.shopping_btn4.size())
 
         # Adding shopping buttons to the layout
@@ -228,16 +228,16 @@ class IpadWindow(QWidget):
         self.way_to_save_btn5.setFixedSize(345, 375)
 
 
-        self.way_to_save_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\1.png")))
+        self.way_to_save_btn1.setIcon(QIcon(QPixmap("images\\1.png")))
         self.way_to_save_btn1.setIconSize(self.way_to_save_btn1.size())
 
-        self.way_to_save_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\2.png")))
+        self.way_to_save_btn2.setIcon(QIcon(QPixmap("images\\2.png")))
         self.way_to_save_btn2.setIconSize(self.way_to_save_btn2.size())
 
-        self.way_to_save_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\3.png")))
+        self.way_to_save_btn3.setIcon(QIcon(QPixmap("images\\3.png")))
         self.way_to_save_btn3.setIconSize(self.way_to_save_btn3.size())
 
-        self.way_to_save_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\4.png")))
+        self.way_to_save_btn4.setIcon(QIcon(QPixmap("images\\4.png")))
         self.way_to_save_btn4.setIconSize(self.way_to_save_btn4.size())
 
         self.way_to_save_lay.addWidget(self.way_to_save_btn1)
@@ -256,7 +256,7 @@ class IpadWindow(QWidget):
         self.difference_btn = QPushButton()
         
 
-        self.difference_btn.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\difference.png")))
+        self.difference_btn.setIcon(QIcon(QPixmap("images\\difference.png")))
         self.difference_btn.setIconSize(self.difference_btn.size())
         # Set the desired button size
         self.difference_btn.setFixedSize(470, 490)  # Width: 200px, Height: 150px
@@ -283,25 +283,25 @@ class IpadWindow(QWidget):
         self.ipad_accessories_btn7 = QPushButton()
         self.ipad_accessories_btn7.setFixedSize(275, 425)
 
-        self.ipad_accessories_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\acces1.png")))
+        self.ipad_accessories_btn1.setIcon(QIcon(QPixmap("images\\acces1.png")))
         self.ipad_accessories_btn1.setIconSize(self.ipad_accessories_btn1.size())
 
-        self.ipad_accessories_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access2.png")))
+        self.ipad_accessories_btn2.setIcon(QIcon(QPixmap("access2.png")))
         self.ipad_accessories_btn2.setIconSize(self.ipad_accessories_btn2.size())
 
-        self.ipad_accessories_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access3.png")))
+        self.ipad_accessories_btn3.setIcon(QIcon(QPixmap("images\\access3.png")))
         self.ipad_accessories_btn3.setIconSize(self.ipad_accessories_btn3.size())
 
-        self.ipad_accessories_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access4.png")))
+        self.ipad_accessories_btn4.setIcon(QIcon(QPixmap("images\\access4.png")))
         self.ipad_accessories_btn4.setIconSize(self.ipad_accessories_btn4.size())
 
-        self.ipad_accessories_btn5.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access5.png")))
+        self.ipad_accessories_btn5.setIcon(QIcon(QPixmap("images\\access5.png")))
         self.ipad_accessories_btn5.setIconSize(self.ipad_accessories_btn5.size())
 
-        self.ipad_accessories_btn6.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access6.png")))
+        self.ipad_accessories_btn6.setIcon(QIcon(QPixmap("images\\access6.png")))
         self.ipad_accessories_btn6.setIconSize(self.ipad_accessories_btn6.size())
 
-        self.ipad_accessories_btn7.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\access7.png")))
+        self.ipad_accessories_btn7.setIcon(QIcon(QPixmap("images\\access7.png")))
         self.ipad_accessories_btn7.setIconSize(self.ipad_accessories_btn7.size())
 
         self.ipad_accessories_lay.addWidget(self.ipad_accessories_btn1)
@@ -334,17 +334,17 @@ class IpadWindow(QWidget):
         self.setup_btn6 = QPushButton()
         self.setup_btn6.setFixedSize(345, 380)
 
-        self.setup_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup1.png")))
+        self.setup_btn1.setIcon(QIcon(QPixmap("images\\setup1.png")))
         self.setup_btn1.setIconSize(self.setup_btn1.size())
-        self.setup_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup2.png")))
+        self.setup_btn2.setIcon(QIcon(QPixmap("images\\setup2.png")))
         self.setup_btn2.setIconSize(self.setup_btn2.size())
-        self.setup_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup3.png")))
+        self.setup_btn3.setIcon(QIcon(QPixmap("images\\setup3.png")))
         self.setup_btn3.setIconSize(self.setup_btn3.size())
-        self.setup_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup4.png")))
+        self.setup_btn4.setIcon(QIcon(QPixmap("images\\setup4.png")))
         self.setup_btn4.setIconSize(self.setup_btn4.size())
-        self.setup_btn5.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup5.png")))
+        self.setup_btn5.setIcon(QIcon(QPixmap("images\\setup5.png")))
         self.setup_btn5.setIconSize(self.setup_btn5.size())
-        self.setup_btn6.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\setup6.png")))
+        self.setup_btn6.setIcon(QIcon(QPixmap("images\\setup6.png")))
         self.setup_btn6.setIconSize(self.setup_btn6.size())
 
         self.setup_lay.addWidget(self.setup_btn1)
@@ -382,9 +382,9 @@ class IpadWindow(QWidget):
         self.ipad_experience_lay2_btn1.setFixedSize(500, 240)
         self.ipad_experience_lay2_btn2 = QPushButton()
         self.ipad_experience_lay2_btn2.setFixedSize(500, 240)
-        self.ipad_experience_lay2_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_lay2_btn1.png")))
+        self.ipad_experience_lay2_btn1.setIcon(QIcon(QPixmap("images\\ipad_experience_lay2_btn1.png")))
         self.ipad_experience_lay2_btn1.setIconSize(self.ipad_experience_lay2_btn1.size())
-        self.ipad_experience_lay2_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_lay2_btn2.png")))
+        self.ipad_experience_lay2_btn2.setIcon(QIcon(QPixmap("images\\ipad_experience_lay2_btn2.png")))
         self.ipad_experience_lay2_btn2.setIconSize(self.ipad_experience_lay2_btn2.size())
         self.ipad_experience_lay2.addWidget(self.ipad_experience_lay2_btn1)
         self.ipad_experience_lay2.addWidget(self.ipad_experience_lay2_btn2)
@@ -392,13 +392,13 @@ class IpadWindow(QWidget):
         self.ipad_experience_btn4 = QPushButton()
         self.ipad_experience_btn4.setFixedSize(345, 380)
 
-        self.ipad_experience_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_btn1.png")))
+        self.ipad_experience_btn1.setIcon(QIcon(QPixmap("images\\ipad_experience_btn1.png")))
         self.ipad_experience_btn1.setIconSize(self.ipad_experience_btn1.size())
-        self.ipad_experience_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_btn2.png")))
+        self.ipad_experience_btn2.setIcon(QIcon(QPixmap("images\\ipad_experience_btn2.png")))
         self.ipad_experience_btn2.setIconSize(self.ipad_experience_btn2.size())
-        self.ipad_experience_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_btn3.png")))
+        self.ipad_experience_btn3.setIcon(QIcon(QPixmap("images\\ipad_experience_btn3.png")))
         self.ipad_experience_btn3.setIconSize(self.ipad_experience_btn3.size())
-        self.ipad_experience_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\ipad_experience_btn4.png")))
+        self.ipad_experience_btn4.setIcon(QIcon(QPixmap("images\\ipad_experience_btn4.png")))
         self.ipad_experience_btn4.setIconSize(self.ipad_experience_btn4.size())
 
         self.ipad_experience_lay.addWidget(self.ipad_experience_btn1)
@@ -425,13 +425,13 @@ class IpadWindow(QWidget):
         self.special_saving_btn4 = QPushButton()
         self.special_saving_btn4.setFixedSize(345, 425)
 
-        self.special_saving_btn1.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\special_saving_btn1.png")))
+        self.special_saving_btn1.setIcon(QIcon(QPixmap("images\\special_saving_btn1.png")))
         self.special_saving_btn1.setIconSize(self.special_saving_btn1.size())
-        self.special_saving_btn2.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\special_saving_btn2.png")))
+        self.special_saving_btn2.setIcon(QIcon(QPixmap("images\\special_saving_btn2.png")))
         self.special_saving_btn2.setIconSize(self.special_saving_btn2.size())
-        self.special_saving_btn3.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\special_saving_btn3.png")))
+        self.special_saving_btn3.setIcon(QIcon(QPixmap("images\\special_saving_btn3.png")))
         self.special_saving_btn3.setIconSize(self.special_saving_btn3.size())
-        self.special_saving_btn4.setIcon(QIcon(QPixmap("D:\\Najot Talim\\applestore\\images\\special_saving_btn4.png")))
+        self.special_saving_btn4.setIcon(QIcon(QPixmap("images\\special_saving_btn4.png")))
         self.special_saving_btn4.setIconSize(self.special_saving_btn4.size())
 
         self.special_saving_lay.addWidget(self.special_saving_btn1)
