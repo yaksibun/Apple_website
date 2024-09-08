@@ -1,4 +1,5 @@
 from PyQt5.QtWidgets import *
+from pods import *
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -125,7 +126,9 @@ class MyWindow(QWidget):
         pass
 
     def air(self):
-        pass
+        self.pods = MainWindow()
+        self.hide()
+        self.pods.show()
 
     def tvhome(self):
         pass
