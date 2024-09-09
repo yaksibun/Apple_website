@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon,QPixmap, QCursor
 from PyQt5.QtCore import QSize, Qt
 from login import Login
+from watch_win import Soat
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -169,7 +170,6 @@ class MyWindow(QWidget):
 
     def watch(self):
         pass
-
     def vision(self):
         pass
 
