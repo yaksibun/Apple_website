@@ -6,7 +6,7 @@ import sys
 class IpadWindow(QWidget):
     def __init__(self):
         super().__init__()
-
+        self.resize(1900,1000)
         # Create the main QVBoxLayout
         self.v_main = QVBoxLayout()
 
