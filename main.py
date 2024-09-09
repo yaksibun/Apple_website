@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon,QPixmap, QCursor
 from PyQt5.QtCore import QSize, Qt
 from login import Login
+from pods import MainWindow
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -174,7 +175,8 @@ class MyWindow(QWidget):
         pass
 
     def air(self):
-       pass
+       self.air = MainWindow()
+       self.air.show()
 
     def tvhome(self):
         pass
