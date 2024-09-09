@@ -144,13 +144,13 @@ class MyWindow(QWidget):
         
     def item_clicked(self,item):
         if item == self.image:
-            self.store()
+            self.ipad()
         elif item == self.image1:
-            self.mac()
+            self.watch()
         elif item == self.image2:
             self.iphone()
         elif item == self.image3:
-            self.tvhome()
+            self.air()
         elif item == self.image4:
             self.tvhome()
 
