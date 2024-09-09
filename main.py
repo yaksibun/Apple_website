@@ -126,10 +126,7 @@ class MyWindow(QWidget):
         pass
 
     def air(self):
-        self.pods = MainWindow()
-        self.hide()
-        self.pods.show()
-
+        pass
     def tvhome(self):
         pass
 
