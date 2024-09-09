@@ -3,6 +3,8 @@ from PyQt5.QtGui import QIcon,QPixmap, QCursor
 from PyQt5.QtCore import QSize, Qt
 from login import Login
 from pods import MainWindow
+from ipad import IpadWindow
+from iphone import IphoneWindow
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -163,10 +165,12 @@ class MyWindow(QWidget):
         pass
 
     def ipad(self):
-        pass
+        self.ipad = IpadWindow()
+        self.ipad.show()
 
     def iphone(self):
-        pass
+        self.iphone = IphoneWindow()
+        self.iphone.show()
 
     def watch(self):
         pass

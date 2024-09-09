@@ -3,7 +3,7 @@ from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtCore import *
 import sys
 
-class IpadWindow(QWidget):
+class IphoneWindow(QWidget):
     def __init__(self):
         super().__init__()
 
