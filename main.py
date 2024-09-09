@@ -5,6 +5,7 @@ from login import Login
 from pods import MainWindow
 from ipad import IpadWindow
 from iphone import IphoneWindow
+from watch_win import Soat
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -173,7 +174,8 @@ class MyWindow(QWidget):
         self.iphone.show()
 
     def watch(self):
-        pass
+        self.watch = Soat()
+        self.watch.show()
 
     def vision(self):
         pass

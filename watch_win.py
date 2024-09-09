@@ -1,7 +1,6 @@
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap, QFont
 from PyQt5.QtCore import Qt
-from pyqt5_plugins.utilities import diagnostic_variables_to_print
 
 
 class Soat(QWidget):
@@ -25,17 +24,17 @@ class Soat(QWidget):
         image_layout = QHBoxLayout()
 
         image_label1 = QLabel(self)
-        pixmap1 = QPixmap("../watchs_imgs/watchs1.png")
+        pixmap1 = QPixmap("watchs_imgs/watchs1.png")
         image_label1.setPixmap(pixmap1)
         image_label1.setAlignment(Qt.AlignCenter)
 
         image_label2 = QLabel(self)
-        pixmap2 = QPixmap("../watchs_imgs/watchs2.png")
+        pixmap2 = QPixmap("watchs_imgs/watchs2.png")
         image_label2.setPixmap(pixmap2)
         image_label2.setAlignment(Qt.AlignCenter)
 
         image_label3 = QLabel(self)
-        pixmap3 = QPixmap("../watchs_imgs/watchs3.png")
+        pixmap3 = QPixmap("watchs_imgs/watchs3.png")
         image_label3.setPixmap(pixmap3)
         image_label3.setAlignment(Qt.AlignCenter)
 
@@ -202,13 +201,13 @@ Available on the App Store. Always follow diving protocols and dive with a compa
 
 
     def seria_9(self):
-        self.show_watch_info("Watch Series 9", "$399", "../watchs_imgs/watchs1.png")
+        self.show_watch_info("Watch Series 9", "$399", "watchs_imgs/watchs1.png")
 
     def ultra_2(self):
-        self.show_watch_info("Watch Ultra 2", "$799", "../watchs_imgs/watchs2.png")
+        self.show_watch_info("Watch Ultra 2", "$799", "watchs_imgs/watchs2.png")
 
     def se(self):
-        self.show_watch_info("Watch SE", "$279", "../watchs_imgs/watchs3.png")
+        self.show_watch_info("Watch SE", "$279", "watchs_imgs/watchs3.png")
 
 
 if __name__ == '__main__':
