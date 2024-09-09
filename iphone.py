@@ -741,6 +741,6 @@ Home button with Touch ID — securely unlock, sign in to apps, and use Apple Pa
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    winIpad = IpadWindow()
+    winIpad = IphoneWindow()
     winIpad.showMaximized()
     sys.exit(app.exec_())
