@@ -6,6 +6,8 @@ from pods import MainWindow
 from ipad import IpadWindow
 from iphone import IphoneWindow
 from watch_win import Soat
+from entertainment import Entertainment
+from accessories import Accessories
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -152,7 +154,7 @@ class MyWindow(QWidget):
         elif item == self.image3:
             self.air()
         elif item == self.image4:
-            self.tvhome()
+            self.enter()
 
     def apple(self):
         self.close()
@@ -188,10 +190,12 @@ class MyWindow(QWidget):
         pass
 
     def enter(self):
-        pass
+        self.enter = Entertainment()
+        self.enter.show()
 
     def acces(self):
-        pass
+        self.ac = Accessories()
+        self.ac.show()
 
     def login(self):
         self.login_window = Login()

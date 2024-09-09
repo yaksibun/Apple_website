@@ -9,7 +9,8 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Apple AirPods")
         self.setWindowIcon(QIcon('images/log.png'))
-        self.resize(1024, 768)
+        self.resize(1900,1000)
+        
 
         self.orders_count = 0
 
