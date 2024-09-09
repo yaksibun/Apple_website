@@ -243,19 +243,19 @@ class IphoneWindow(QWidget):
         self.way_to_save_btn5.setFixedSize(345, 375)
 
 
-        self.way_to_save_btn1.setIcon(QIcon(QPixmap("images\\12.png")))
+        self.way_to_save_btn1.setIcon(QIcon(QPixmap("images/12.png")))
         self.way_to_save_btn1.setIconSize(self.way_to_save_btn1.size())
 
-        self.way_to_save_btn2.setIcon(QIcon(QPixmap("images\\13.png")))
+        self.way_to_save_btn2.setIcon(QIcon(QPixmap("images/13.png")))
         self.way_to_save_btn2.setIconSize(self.way_to_save_btn2.size())
 
-        self.way_to_save_btn3.setIcon(QIcon(QPixmap("images\\14.png")))
+        self.way_to_save_btn3.setIcon(QIcon(QPixmap("images/14.png")))
         self.way_to_save_btn3.setIconSize(self.way_to_save_btn3.size())
 
-        self.way_to_save_btn4.setIcon(QIcon(QPixmap("images\\15.png")))
+        self.way_to_save_btn4.setIcon(QIcon(QPixmap("images/15.png")))
         self.way_to_save_btn4.setIconSize(self.way_to_save_btn4.size())
 
-        self.way_to_save_btn5.setIcon(QIcon(QPixmap("images\\16.png")))
+        self.way_to_save_btn5.setIcon(QIcon(QPixmap("images/16.png")))
         self.way_to_save_btn5.setIconSize(self.way_to_save_btn5.size())
 
 

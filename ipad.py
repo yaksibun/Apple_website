@@ -9,6 +9,7 @@ class IpadWindow(QWidget):
 
         # Create the main QVBoxLayout
         self.v_main = QVBoxLayout()
+        self.resize(1900,1000)
 
         # Create a QScrollArea for vertical scrolling (whole window scrollable vertically)
         vertical_scroll_area = QScrollArea()
