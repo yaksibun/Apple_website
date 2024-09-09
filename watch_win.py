@@ -4,6 +4,9 @@ from PyQt5.QtCore import Qt
 from pyqt5_plugins.utilities import diagnostic_variables_to_print
 
 
+
+
+
 class Soat(QWidget):
     def __init__(self):
         super().__init__()
